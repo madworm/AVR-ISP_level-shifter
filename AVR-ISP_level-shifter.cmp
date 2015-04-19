@@ -1,17 +1,17 @@
-Cmp-Mod V01 Created by Cvpcb (2015-04-17 BZR 5608)-product   date = Sun 19 Apr 2015 01:50:55 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2015-04-17 BZR 5608)-product   date = Sun 19 Apr 2015 02:32:32 PM CEST
 
 BeginCmp
 TimeStamp = /55345800;
 Reference = C1;
 ValeurCmp = 1µF;
-IdModule  = my_parts:MADW__C0805;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /5534593E;
 Reference = C2;
 ValeurCmp = 1µF;
-IdModule  = my_parts:MADW__C0805;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
 EndCmp
 
 BeginCmp
@@ -25,7 +25,7 @@ BeginCmp
 TimeStamp = /5533A253;
 Reference = INPUT2;
 ValeurCmp = AVR-ISP-10;
-IdModule  = AVR-ISP-10;
+IdModule  = DIL-Headers:DIL-5;
 EndCmp
 
 BeginCmp
@@ -39,7 +39,7 @@ BeginCmp
 TimeStamp = /5533A52C;
 Reference = OUTPUT2;
 ValeurCmp = AVR-ISP-10;
-IdModule  = AVR-ISP-10;
+IdModule  = DIL-Headers:DIL-5;
 EndCmp
 
 BeginCmp
@@ -158,7 +158,7 @@ BeginCmp
 TimeStamp = /5533AC97;
 Reference = SW1;
 ValeurCmp = APEM 25439NH;
-IdModule  = ;
+IdModule  = Switches:switch_vert_SPDT_ON-OFF-ON_TH_APEM-25439NH;
 EndCmp
 
 BeginCmp
