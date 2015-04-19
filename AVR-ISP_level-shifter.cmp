@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-04-17 BZR 5608)-product   date = Sun 19 Apr 2015 02:32:32 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2015-04-17 BZR 5608)-product   date = Sun 19 Apr 2015 02:41:24 PM CEST
 
 BeginCmp
 TimeStamp = /55345800;
@@ -46,56 +46,56 @@ BeginCmp
 TimeStamp = /55338E12;
 Reference = Q1;
 ValeurCmp = BSS138;
-IdModule  = my_parts:MADW__SOT23;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
 BeginCmp
 TimeStamp = /55339657;
 Reference = Q2;
 ValeurCmp = BSS138;
-IdModule  = my_parts:MADW__SOT23;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
 BeginCmp
 TimeStamp = /55339C43;
 Reference = Q3;
 ValeurCmp = BSS138;
-IdModule  = my_parts:MADW__SOT23;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
 BeginCmp
 TimeStamp = /55339C49;
 Reference = Q4;
 ValeurCmp = BSS138;
-IdModule  = my_parts:MADW__SOT23;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
 BeginCmp
 TimeStamp = /55339F8D;
 Reference = Q5;
 ValeurCmp = BSS138;
-IdModule  = my_parts:MADW__SOT23;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
 BeginCmp
 TimeStamp = /55339F93;
 Reference = Q6;
 ValeurCmp = BSS138;
-IdModule  = my_parts:MADW__SOT23;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
 BeginCmp
 TimeStamp = /55339C09;
 Reference = Q7;
 ValeurCmp = BSS138;
-IdModule  = my_parts:MADW__SOT23;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
 BeginCmp
 TimeStamp = /55339C0F;
 Reference = Q8;
 ValeurCmp = BSS138;
-IdModule  = my_parts:MADW__SOT23;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
 BeginCmp

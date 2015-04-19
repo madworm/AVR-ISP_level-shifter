@@ -29,6 +29,7 @@
     (39 F.Mask user)
     (40 Dwgs.User user)
     (44 Edge.Cuts user)
+    (47 F.CrtYd user)
   )
 
   (setup
