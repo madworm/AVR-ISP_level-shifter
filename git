@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "gso"]
+	url = ssh://gitolite@git.spitzenpfeil.org:66/AVR-ISP_pogo-plug_1.27mm
+	fetch = +refs/heads/*:refs/remotes/gso/*
+[remote "github"]
+	url = git@github.com:madworm/AVR-ISP_pogo-plug_1.27mm.git
+	fetch = +refs/heads/*:refs/remotes/github/*
+[branch "master"]
+	remote = github
+	merge = refs/heads/master
