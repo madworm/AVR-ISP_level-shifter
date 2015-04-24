@@ -11,8 +11,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "AVR-ISP_level-shifter"
-Date "Sun 19 Apr 2015"
-Rev "0.1"
+Date "Fri 24 Apr 2015"
+Rev "0.11"
 Comp "2015 - blog.spitzenpfeil.org"
 Comment1 ""
 Comment2 ""
@@ -53,10 +53,10 @@ F 3 "" H 9700 1550 50  0000 L CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L R R2
+L R DR.R2
 U 1 1 55339929
 P 9950 1450
-F 0 "R2" V 10030 1450 50  0000 C CNN
+F 0 "DR.R2" V 10030 1450 50  0000 C CNN
 F 1 "1K5" V 9950 1450 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 9880 1450 30  0001 C CNN
 F 3 "" H 9950 1450 30  0000 C CNN
@@ -108,10 +108,10 @@ F 3 "" H 9950 2250 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R3
+L R DR.R3
 U 1 1 55339C56
 P 8950 2250
-F 0 "R3" V 9030 2250 50  0000 C CNN
+F 0 "DR.R3" V 9030 2250 50  0000 C CNN
 F 1 "1K5" V 8950 2250 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 8880 2250 30  0001 C CNN
 F 3 "" H 8950 2250 30  0000 C CNN
@@ -152,10 +152,10 @@ F 3 "" H 9950 3050 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R5
+L R DR.R5
 U 1 1 55339FA0
 P 8950 3050
-F 0 "R5" V 9030 3050 50  0000 C CNN
+F 0 "DR.R5" V 9030 3050 50  0000 C CNN
 F 1 "1K5" V 8950 3050 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 8880 3050 30  0001 C CNN
 F 3 "" H 8950 3050 30  0000 C CNN
@@ -261,10 +261,10 @@ F 3 "" H 9950 3850 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R7
+L R DR.R7
 U 1 1 55339C1C
 P 8950 3850
-F 0 "R7" V 9030 3850 50  0000 C CNN
+F 0 "DR.R7" V 9030 3850 50  0000 C CNN
 F 1 "1K5" V 8950 3850 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 8880 3850 30  0001 C CNN
 F 3 "" H 8950 3850 30  0000 C CNN
@@ -295,8 +295,6 @@ Text Label 8800 2850 2    60   ~ 0
 VCC_PRG
 Text Label 8800 3650 2    60   ~ 0
 VCC_PRG
-Text Notes 8200 1000 0    60   ~ 0
-level shifter
 Text Label 7150 1500 0    60   ~ 0
 GND
 Text Label 7200 2300 0    60   ~ 0
@@ -485,10 +483,6 @@ Connection ~ 8950 2850
 Connection ~ 8950 3650
 Wire Notes Line
 	8150 850  10900 850 
-Wire Notes Line
-	8150 1050 8800 1050
-Wire Notes Line
-	8800 1050 8800 850 
 Wire Wire Line
 	6800 1500 7150 1500
 Wire Wire Line
@@ -661,4 +655,20 @@ Text Notes 2650 2650 0    60   ~ 0
 Target power select
 Wire Notes Line
 	3600 2700 3600 2500
+Text Notes 650  7600 0    60   ~ 0
+(1) If the driven side has push-pull outputs, use 100K instead of 1K5.
+Text Notes 8200 1000 0    60   ~ 0
+level shifter
+Wire Notes Line
+	8800 850  8800 1050
+Wire Notes Line
+	8800 1050 8150 1050
+Text Notes 10100 1450 0    39   ~ 0
+(1)
+Text Notes 8750 2250 0    39   ~ 0
+(1)
+Text Notes 8750 3050 0    39   ~ 0
+(1)
+Text Notes 8750 3850 0    39   ~ 0
+(1)
 $EndSCHEMATC

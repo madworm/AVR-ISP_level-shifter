@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-04-17 BZR 5608)-product   date = Sun 19 Apr 2015 04:24:20 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2015-04-23 BZR 5622)-product   date = Fri 24 Apr 2015 10:01:36 PM CEST
 
 BeginCmp
 TimeStamp = /55345800;
@@ -12,6 +12,34 @@ TimeStamp = /5534593E;
 Reference = C2;
 ValeurCmp = 1µF;
 IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55339929;
+Reference = DR.R2;
+ValeurCmp = 1K5;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55339C56;
+Reference = DR.R3;
+ValeurCmp = 1K5;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55339FA0;
+Reference = DR.R5;
+ValeurCmp = 1K5;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55339C1C;
+Reference = DR.R7;
+ValeurCmp = 1K5;
+IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
@@ -106,20 +134,6 @@ IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /55339929;
-Reference = R2;
-ValeurCmp = 1K5;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /55339C56;
-Reference = R3;
-ValeurCmp = 1K5;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /55339C50;
 Reference = R4;
 ValeurCmp = 1K5;
@@ -127,22 +141,8 @@ IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /55339FA0;
-Reference = R5;
-ValeurCmp = 1K5;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /55339F9A;
 Reference = R6;
-ValeurCmp = 1K5;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /55339C1C;
-Reference = R7;
 ValeurCmp = 1K5;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
