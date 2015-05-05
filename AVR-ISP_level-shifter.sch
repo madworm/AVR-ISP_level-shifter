@@ -11,8 +11,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "AVR-ISP_level-shifter"
-Date "Fri 24 Apr 2015"
-Rev "0.11"
+Date "Tue 05 May 2015"
+Rev "0.12"
 Comp "2015 - blog.spitzenpfeil.org"
 Comment1 ""
 Comment2 ""
@@ -353,7 +353,7 @@ Text Label 3800 2200 2    60   ~ 0
 GND
 Text Label 4350 3450 0    60   ~ 0
 VCC_TARGET
-Text Label 4550 1500 0    60   ~ 0
+Text Label 4400 1300 0    60   ~ 0
 VCC_REG
 $Comp
 L C C1
@@ -582,20 +582,18 @@ Wire Wire Line
 Wire Wire Line
 	3300 1850 3300 2050
 Wire Wire Line
-	3300 2050 4400 2050
+	3300 2050 4650 2050
 Connection ~ 3850 2050
 Wire Wire Line
 	4400 2050 4400 1850
 Wire Wire Line
 	3850 2200 3800 2200
 Wire Wire Line
-	4400 1500 4400 1550
+	4400 1300 4400 1550
 Wire Wire Line
 	3300 1500 3300 1550
 Connection ~ 4400 1500
 Connection ~ 3300 1500
-Wire Wire Line
-	4250 1500 4550 1500
 $Comp
 L PWR_FLAG #FLG01
 U 1 1 55346ABA
@@ -671,4 +669,22 @@ Text Notes 8750 3050 0    39   ~ 0
 (1)
 Text Notes 8750 3850 0    39   ~ 0
 (1)
+$Comp
+L R R9
+U 1 1 5548E9BF
+P 4650 1700
+F 0 "R9" V 4730 1700 50  0000 C CNN
+F 1 "300R" V 4650 1700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4580 1700 30  0001 C CNN
+F 3 "" H 4650 1700 30  0000 C CNN
+	1    4650 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 2050 4650 1850
+Connection ~ 4400 2050
+Wire Wire Line
+	4250 1500 4650 1500
+Wire Wire Line
+	4650 1500 4650 1550
 $EndSCHEMATC
